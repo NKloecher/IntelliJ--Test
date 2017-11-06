@@ -3,15 +3,15 @@ public class Main {
         System.out.println("Hi Git");
         System.out.println(calc());
         String s = calc();
-        stuff(s);
-        System.out.println(s);
+        System.out.println(stuff(s));
         System.out.println("TEAM CITY CAN YOU RUN THIS?!");
     }
     private static String calc(){
         return "Stuff";
     }
-private static void stuff(String stuff){
-        stuff = "Dette her " + stuff;
+
+    private static String stuff(String stuff) {
+        return "This " + stuff;
 }
 
 }

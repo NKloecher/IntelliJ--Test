@@ -5,6 +5,7 @@ public class Main {
         String s = calc();
         stuff(s);
         System.out.println(s);
+        System.out.println("TEAM CITY CAN YOU RUN THIS?!");
     }
     private static String calc(){
         return "Stuff";
